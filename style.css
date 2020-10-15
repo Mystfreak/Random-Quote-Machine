@@ -1,0 +1,52 @@
+header {
+  font-size: 50px;
+  font-family:serif;
+}
+.my-container {
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+}
+.my-container header{
+    padding: 100px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: #000;
+} 
+.my-container img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 20em;
+    z-index: 1;
+    opacity: 0.2;
+}
+#quote-box {
+  border-radius: 3px;
+  position: relative;
+  margin:2em auto;
+  width: 50%;
+  padding: 60px 100px 100px 50px;
+  display: table;
+  background-color:rgba(100, 100, 80, 0.1) ;
+}
+#new-quote {
+  height:auto;
+  width:100%;
+  font-family:arial;
+  float:right;
+}
+i {
+  height:auto;
+  width:100%;
+  font-family:arial;
+}
+#text{
+  font-family: serif;
+  font-size: 1.2em;
+}
+.buttons {
+  padding: 2em;
+}
